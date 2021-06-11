@@ -1,0 +1,9 @@
+inst2xsd C:\Projects\XML_Beans\cd_catalog.xml -outDir C:\Projects\XML_Beans -outPrefix cd_catalog
+
+xjc -d C:\Projects\XML_Beans\src -p org.dragon.yunpeng.xjc C:\Projects\XML_Beans\cd_catalog0.xsd
+
+
+
+References:
+http://xmlbeans.apache.org/guide/Tools.html#inst2xsd
+https://examples.javacodegeeks.com/core-java/xml/bind/jaxb-generate-classes-xsd/
